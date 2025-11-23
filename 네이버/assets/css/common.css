@@ -1,0 +1,74 @@
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.ad-weather .weather-head .title-area .ic-compare::after,
+.ad-stock .price-wrap .ic-status.down::after,
+.ad-stock .info-box .stock-item .more-link .text::after,
+.ad-stock .ic-status.up::after,
+.ad-stock .ic-status.down::after,
+.ad-stock .stock-head .btn-info::after,
+.widget-area .group-widget .ic-prev::after,
+.widget-area .link-box::after,
+.widget-area .link-box::before,
+.widget-area .papago-box .ic-papago::before,
+.widget-area .papago-box .ic-papago::after,
+.widget-area .dictionary-box .search-link::before,
+#footer .notice-area .svc-all::after,
+.feed-area .view-group .btn-next::after,
+.feed-area .view-group .btn-prev::after,
+.feed-area .feed-item .feed-link .feed-badge::before,
+.sc-news .issue-area .issue-wrap .ic-triangle::after,
+.sc-news .control-area .view-area .btn-thumb::after,
+.sc-news .control-area .view-area .btn-list::after,
+.sc-news .control-area .control-wrap .btn-prev::after,
+.sc-news .control-area .control-wrap .btn-next::after,
+.sc-news .head-area .tab-item .ic-sports::after,
+.sc-login .link-login::before,
+#header .nav-area .ic-mail::after,
+#header .nav-area .ic-cafe::after,
+#header .nav-area .ic-blog::after,
+#header .nav-area .ic-shopping::after,
+#header .nav-area .ic-news::after,
+#header .nav-area .ic-stock::after,
+#header .nav-area .ic-real::after,
+#header .nav-area .ic-map::after,
+#header .nav-area .ic-webtoon::after,
+#header .nav-area .ic-live::after,
+#header .nav-area .ic-more::after,
+#header .nav-area .icon::before,
+#header .nav-area .icon::after,
+#header .search-area .btn-keyboard::after,
+#header .search-area .btn-auto::after,
+#header .util-area [class*="btn-"]::after {
+  background-image: url(../images/sp-bg.png);
+  background-size: 468px 456px;
+  background-repeat: no-repeat;
+}
+.sc-shopping .control-area .control-wrap .btn-prev::after,
+.sc-shopping .control-area .control-wrap .btn-next::after,
+.commerce-area .group-menu .menu-item .ic-myShopping::before,
+.commerce-area .group-menu .menu-item .ic-review::before,
+.commerce-area .group-menu .menu-item .ic-order::before,
+.commerce-area .group-menu .menu-item .ic-cart::before {
+  background-image: url(../images/sp-shopping.png);
+  background-size: 216px 190px;
+  background-repeat: no-repeat;
+}
+
+.ad-mark-area .ad-mark::after {
+  background-image: url(../images/sp-ad-mark.png);
+  background-size: 100px 90px;
+  background-repeat: no-repeat;
+}
+
+.ad-weather .weather-right .weather-item .icon::before,
+.ad-weather .weather-left .weather-link .weather-icon::after {
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_weather.11654bc0.png);
+  background-size: 641px 587px;
+  background-repeat: no-repeat;
+}
