@@ -32,7 +32,7 @@
               </a>
             </h1>
             <!-- fieldset는 양식 속 그룹 생성(form에 대한 영역) / legend는 그룹 설명(form에 대한 제목) -->
-            <form action="" method="get" class="search-form">
+            <form action="." method="get" class="search-form">
               <fieldset class="search-inner">
                 <legend class="blind">검색</legend>
 
@@ -298,61 +298,61 @@
               <div class="commerce-left">
                 <div class="commerce-frame group-mall">
                   <h3 class="blind">몰 바로가기</h3>
-                  <ul class="mall-list">
-                    <li class="mall-item">
+                  <div class="mall-list">
+                    <div class="mall-item">
                       <a href="#" class="mall-link"><strong>쿠팡</strong></a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">G마켓</a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
 
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">옥션</a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">올리브영</a>
-                    </li>
-                  </ul>
-                  <ul class="mall-list">
-                    <li class="mall-item">
+                    </div>
+                  </div>
+                  <div class="mall-list">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">11번가</a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
 
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link"><strong>SSG닷컴</strong></a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
 
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">GS SHOP</a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
 
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">하프클럽</a>
-                    </li>
-                  </ul>
-                  <ul class="mall-list">
-                    <li class="mall-item">
+                    </div>
+                  </div>
+                  <div class="mall-list">
+                    <div class="mall-item">
                       <a href="#" class="mall-link"
                         ><strong>CJ온스타일</strong></a
                       >
-                    </li>
+                    </div>
                     <i class="dot"></i>
 
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">패션플러스</a>
-                    </li>
+                    </div>
                     <i class="dot"></i>
 
-                    <li class="mall-item">
+                    <div class="mall-item">
                       <a href="#" class="mall-link">이마트몰</a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
 
                 <div class="group-menu commerce-frame">
@@ -538,7 +538,7 @@
             </div>
 
             <div class="group-category">
-              <ul class="category-list">
+              <ul class="category-list" role="tablist">
                 <li class="category-item">
                   <a href="#" role="tab" aria-selected="true">인기</a>
                 </li>
@@ -863,7 +863,7 @@
               </div>
               <div class="group-control">
                 <button class="btn-more">
-                  펼쳐보기 <i class="ic-more" aria-label="펼쳐보기"></i>
+                  펼쳐보기 <i class="ic-more" aria-hidden="true"></i>
                 </button>
               </div>
             </div>
@@ -909,32 +909,34 @@
             <h2>
               <span>요즘</span> <span>관심 받는</span> <span>아이템</span>
             </h2>
-            <ul class="recShopping-list">
-              <li class="recShopping-item">
-                <a href="" class="recShopping-link">
-                  <img src="assets/images/ad4-1.jpg" alt="" />
-                  <p>[3+1] 레이델 폴리코사놀5 (30정x총4박스) 4개월분</p>
-                </a>
-              </li>
-              <li class="recShopping-item">
-                <a href="" class="recShopping-link">
-                  <img src="assets/images/ad4-2.jpg" alt="" />
-                  <p>셀트리온 파워 스피드 마그네슘 315 12개월</p>
-                </a>
-              </li>
-              <li class="recShopping-item">
-                <a href="" class="recShopping-link">
-                  <img src="assets/images/ad4-3.png" alt="" />
-                  <p>제주산 빨간(자색/붉은) 양파엑기스,액기스원액</p>
-                </a>
-              </li>
+            <div class="recShopping-wrap">
+              <ul class="recShopping-list">
+                <li class="recShopping-item">
+                  <a href="" class="recShopping-link">
+                    <img src="assets/images/ad4-1.jpg" alt="" />
+                    <p>[3+1] 레이델 폴리코사놀5 (30정x총4박스) 4개월분</p>
+                  </a>
+                </li>
+                <li class="recShopping-item">
+                  <a href="" class="recShopping-link">
+                    <img src="assets/images/ad4-2.jpg" alt="" />
+                    <p>셀트리온 파워 스피드 마그네슘 315 12개월</p>
+                  </a>
+                </li>
+                <li class="recShopping-item">
+                  <a href="" class="recShopping-link">
+                    <img src="assets/images/ad4-3.png" alt="" />
+                    <p>제주산 빨간(자색/붉은) 양파엑기스,액기스원액</p>
+                  </a>
+                </li>
+              </ul>
               <button class="btn btn-prev" aria-label="이전슬라이드">
                 <i class="ic-prev"></i>
               </button>
               <button class="btn btn-next" aria-label="다음슬라이드">
                 <i class="ic-next"></i>
               </button>
-            </ul>
+            </div>
           </aside>
 
           <!-- 날씨 -->
@@ -992,33 +994,33 @@
                   <ul class="weather-list">
                     <li class="weather-item">
                       <span class="temperature">23°</span>
-                      <i class="icon"><div class="blind">비</div></i>
+                      <i class="icon"><span class="blind">비</span></i>
                       <span class="current-hour common">23시</span>
                     </li>
                     <li class="weather-item">
                       <span class="temperature" style="margin-top: 18px"
                         >24°</span
                       >
-                      <i class="icon"><div class="blind">비</div></i>
+                      <i class="icon"><span class="blind">비</span></i>
                       <span class="hour common">1</span>
                     </li>
                     <li class="weather-item">
                       <span class="temperature" style="margin-top: 18px"
                         >24°</span
                       >
-                      <i class="icon"><div class="blind">비</div></i>
+                      <i class="icon"><span class="blind">비</span></i>
                       <span class="hour common">3</span>
                     </li>
                     <li class="weather-item">
                       <span class="temperature" style="margin-top: 18px"
                         >24°</span
                       >
-                      <i class="icon"><div class="blind">비</div></i>
+                      <i class="icon"><span class="blind">비</span></i>
                       <span class="hour common">5</span>
                     </li>
                     <li class="weather-item">
                       <span class="temperature" style="margin-top: 0">25°</span>
-                      <i class="icon"><div class="blind">비</div></i>
+                      <i class="icon"><span class="blind">비</span></i>
                       <span class="hour common">7</span>
                     </li>
                   </ul>
@@ -1113,11 +1115,11 @@
             <a href="" class="banner-link">
               <div class="banner-head">
                 <strong>2040 취업, 약국사무원 어때?</strong>
-                <div class="ad-mark-area">
+                <!-- <div class="ad-mark-area">
                   <button class="ad-mark">
                     <span class="blind">AD, 광고 닫기</span>
                   </button>
-                </div>
+                </div> -->
               </div>
               <div class="banner-mid">
                 <div class="img-area">
@@ -1127,7 +1129,7 @@
                   <p>약사회 추천 교율과 취업 연계까지 한 번에!</p>
                 </div>
               </div>
-              <div href="" class="banner-footer">
+              <div class="banner-footer">
                 <div class="brand-area">
                   <div class="brand-info">
                     <div class="brand-logo">
@@ -1154,6 +1156,11 @@
                 </div>
               </div>
             </a>
+            <div class="ad-mark-area">
+              <button class="ad-mark">
+                <span class="blind">AD, 광고 닫기</span>
+              </button>
+            </div>
           </aside>
 
           <div class="frame widget-area">

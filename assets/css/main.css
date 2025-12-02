@@ -482,6 +482,7 @@ body {
   background-color: var(--color_dot_divider);
   border-radius: 50%;
 }
+
 .commerce-area .commerce-left .mall-link {
   color: #404040;
   color: var(--color_caption1);
@@ -657,6 +658,8 @@ body {
 .ad-banner {
   overflow: hidden;
   display: flex;
+
+  position: relative;
 }
 .ad-recShopping {
   display: flex;
@@ -673,6 +676,9 @@ body {
 .ad-recShopping span {
 }
 
+.ad-recShopping .recShopping-wrap {
+  position: relative;
+}
 .ad-recShopping .recShopping-list {
   position: relative;
   display: flex;
@@ -784,15 +790,15 @@ body {
   letter-spacing: -0.5px;
   line-height: 22px;
 }
-.banner-head .ad-mark-area {
+.ad-banner .ad-mark-area {
   position: absolute;
-  top: -16px;
-  right: -16px;
+  right: 2px;
+  top: 4px;
 }
-.banner-head .ad-mark-area .ad-mark {
+.ad-banner .ad-mark-area .ad-mark {
   padding: 4px;
 }
-.banner-head .ad-mark-area .ad-mark::after {
+.ad-banner .ad-mark-area .ad-mark::after {
   background-position: 0px -20px;
   width: 42px;
   height: 16px;
